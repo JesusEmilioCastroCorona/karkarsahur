@@ -22,7 +22,7 @@ Permite la **gestión de usuarios y libros**, con **autenticación segura median
 ```
 📁 biblioteca_segura/
 │
-├── biblioteca.py       # Código principal del sistema
+├── base_segura.py       # Código principal del sistema
 ├── README.md           # Archivo de documentación
 ```
 
