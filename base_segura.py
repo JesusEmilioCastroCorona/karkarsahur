@@ -16,10 +16,10 @@ class ConexionBD:
     def conectar(self):
         try:
             self.conexion = mysql.connector.connect(
-                host=self.host,
-                user=self.user,
-                password=self.password,
-                database=self.database
+                host=self.localhost,
+                user=self.root,
+                password=self.toor,
+                database=self.biblioteca2
             )
             if self.conexion.is_connected():
                 print("✅ Conexión exitosa a la base de datos")
@@ -415,3 +415,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
